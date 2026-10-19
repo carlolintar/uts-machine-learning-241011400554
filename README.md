@@ -98,21 +98,3 @@ Pada Logistic Regression, metrik klasifikasi testing di threshold 0,5 sama pada 
 
 Linear Regression menunjukkan hubungan positif antara biaya iklan dan penjualan, dengan R² testing 0,8241. Gradient Descent memperlihatkan bahwa pemilihan learning rate berpengaruh besar terhadap konvergensi. Logistic Regression memperoleh akurasi testing 80% pada threshold 0,5, tetapi masih melakukan kesalahan klasifikasi sehingga belum dapat dianggap sempurna. Hasil ini berlaku untuk dataset yang digunakan dan tidak menjamin performa yang sama pada data baru.
 
-## Struktur Repository
-
-```text
-uts-machine-learning-241011400554/
-├── README.md
-├── tugas_UTS.ipynb
-├── Ads_Data.csv
-├── Email_Data.csv
-└── requirements.txt
-```
-
-## Cara Menjalankan
-
-1. Buka folder repository di VS Code atau Jupyter Notebook.
-2. Pasang dependensi menggunakan `python -m pip install -r requirements.txt`.
-3. Buka `tugas_UTS.ipynb`, pilih kernel Python yang sesuai, lalu jalankan **Run All**.
-
-Notebook yang disertakan sudah dieksekusi dari awal hingga akhir dan output tabel, metrik, serta grafik disimpan di dalam notebook.
